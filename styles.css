@@ -2,3 +2,41 @@
     margin: 0;
     padding: 0;
 }
+
+body { 
+    background-color: #c8c8c8;
+}
+
+.logo {
+    color: brown;
+    font-size: 26px ;
+    padding-left: 30px;
+    align-items: center;
+    font-weight: bold;
+    text-align: center;
+    justify-content:space-between;
+    }
+    
+    .logo span {
+        color: blue;
+    }
+
+.barra1 ul li{
+    text-align: center;
+    text-decoration: none;
+    list-style: none ;
+    display:inline-block;
+    padding: 20px;
+    align-items: center;
+    font-size: 20px ;
+    flex: auto;
+}
+
+.barra1 a{
+    text-decoration: none;
+    color: black;
+}
+
+.bar1 a:hover{
+    color: brown; ;
+}
