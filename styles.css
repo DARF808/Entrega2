@@ -7,6 +7,19 @@ body {
     background-color: #c8c8c8;
 }
 
+/*barra de navegacion*/
+
+header {
+    background-color:rgb(175, 175, 175) ;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+    padding: 5px;
+    align-items: center;
+    text-align: center;
+    border: 2px solid black;
+}
+
 .logo {
     color: brown;
     font-size: 26px ;
@@ -37,6 +50,58 @@ body {
     color: black;
 }
 
-.bar1 a:hover{
-    color: brown; ;
+.barra1 a:hover{
+    color: rgb(255, 0, 0); ;
+}
+
+.barra2 ul li {
+    text-align: center;
+    text-decoration: none;
+    list-style: none ;
+    display:inline-block;
+    padding: 20px;
+    align-items: center;
+    font-size: 20px ;
+    flex: auto;
+}
+
+.barra2 a{
+    text-decoration: none;
+    color: black;
+}
+
+.barra2 a:hover{
+    color: rgb(0, 247, 12); ;
+}
+
+/*bloque 1 de la pag*/
+
+main  {
+    margin: 20px;
+    border: 2px solid black;
+}
+
+.contenedor1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align:center;
+}
+
+img {
+    width: 100px; 
+    height: auto;
+    text-align: end;
+}
+
+p{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align:center;
+    padding: 20px;
 }
