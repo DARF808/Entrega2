@@ -79,6 +79,7 @@ header {
 main  {
     margin: 20px;
     border: 2px solid black;
+    
 }
 
 .contenedor1{
@@ -104,4 +105,37 @@ p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align:center;
     padding: 20px;
+}
+
+/* bloque 3*/
+
+.section2{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Diseño adaptable en columnas y fraccio9nes distribuye los elementos en toda la pagina*/
+    gap: 20px; /* espacio entre las columnas*/
+    text-align: center;
+    padding: 30px;
+    flex-direction: column;
+    /*border: 5px solid black;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;*/
+}
+
+.servicios {
+    
+    display: inline-block;
+    background: rgb(91, 109, 79);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+.servicios:hover {
+    transform: scale(1.05);
+}
+img{
+    height: 150px;
+    width: 150px;
+    padding: 10px;
+    
 }
